@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ash Beauty</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <style>
+      .navbar-custom {
+          background-color: #310303;    
+          position: sticky;
+          top: 0;
+          z-index: 1000; 
+}
+      
+  
+      .navbar-custom .navbar-brand,
+      .navbar-custom .nav-link,
+      .navbar-custom .dropdown-item,
+      .navbar-custom .nav-item.dropdown .nav-link.dropdown-toggle {
+          color: #fff;
+      }
+  
+      .navbar-custom .nav-link:hover,
+      .navbar-custom .dropdown-item:hover,
+      .navbar-custom .nav-item.dropdown .nav-link.dropdown-toggle:hover {
+          color: #e79999;
+      }
+  
+      .navbar-custom .nav-item.dropdown .dropdown-menu {
+          background-color: #310303;
+      }
+  
+      .navbar-custom .nav-item.dropdown .dropdown-menu .dropdown-item:hover {
+          color: #030000;
+          background-color: #e79999;
+      }
+  
+      .navbar-custom .nav-item.dropdown .nav-link.dropdown-toggle::after {
+          color: #fff;
+      }
+
+      .navbar-custom .navbar-brand img {
+          border-radius: 50%;
+          height: 40px; 
+          width: 40px;  
+      }
+
+      .form-inline {
+          margin-left: auto; 
+      }
+
+      .input-group {
+          margin-right: 15px; 
+      }
+  </style>
+</head>
+<body>
+  <!--Nav bar-->
+  <nav class="navbar navbar-expand-lg navbar-custom">
+      <a class="navbar-brand" href="#">
+          <img src="Images/logo (2).png" alt="Ash Beauty Logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+              <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="About.html">About Us</a>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Products
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="makeup.html">Makeup</a>
+                      <a class="dropdown-item" href="skincare.html">Skincare</a>
+                      <a class="dropdown-item" href="perfume.html">Perfumes</a>
+                  </div>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="Gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="Contact.html">Contact Us</a>
+              </li>
+          </ul>
+          <form class="form-inline ml-auto">
+              <div class="input-group">
+                  <input type="search" name="search" class="form-control" placeholder="Search Anything Here..." aria-label="Search">
+                  <div class="input-group-append">
+                      <button class="btn btn-outline-dark" type="button"><span class="glyphicon glyphicon-search"></span></button>
+                  </div>
+              </div>
+          </form>
+          <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="loginDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <span class="glyphicon glyphicon-log-in"></span> Login / Sign Up
+                  </a>
+                  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="loginDropdown">
+                      <a class="dropdown-item" href="login.html">Login</a>
+                      <a class="dropdown-item" href="sign.html">Sign Up</a>
+                  </div>
+              </li>
+          </ul>
+      </div>
+  </nav>
+
+    <header style="background-color: #e79999;" class="text-white text-center py-5">
+        <div class="container">
+            <h1>Welcome to Ash Beauty</h1>
+            <p class="lead">Your ultimate destination for elevating your beauty regimen</p>
+        </div>
+    </header>
+
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <img src="Images/abott.jpg" alt="Beauty Products" class="img-fluid rounded">
+                </div>
+                <div class="col-lg-6">
+                    <h2>About Us</h2>
+                    <p>Ash Beauty is your ultimate destination for elevating your beauty regimen to new heights. Discover our exquisite range of products meticulously designed to enhance every aspect of your daily routine. From luxurious skincare essentials that nourish and rejuvenate your skin to vibrant makeup products that add a splash of color and confidence, and enchanting perfumes that leave a lasting impression, we offer a curated selection that caters to all your beauty needs, no matter your style or preference.</p>
+                    <p>Whether you're looking to revitalize your skincare routine with our carefully formulated creams and serums, find the perfect makeup to complement your unique style for any occasion, or choose a signature scent that reflects your personality and charm, Ash Beauty provides only the highest quality products that empower you to look your absolute best every day. Our commitment to excellence ensures that you receive not just products, but an experience that celebrates your individuality.</p>
+                    <p>Explore our diverse range and uncover the perfect additions to your beauty collection that will transform your daily rituals into moments of self-care and indulgence. Visit us today and embark on a journey to redefine your beauty experience with Ash Beauty, where elegance meets efficacy, and every product is a step towards the best version of you!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Footer -->
+<footer class="text-center text-lg-start text-white" style="background-color: #e79999;">
+    <!-- Section: Links  -->
+    <section class="py-3">
+      <div class="container text-center text-md-start">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-2">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold">Ash Beauty</h6>
+            <hr class="mb-2 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #380606; height: 2px" />
+            <p>
+                A chic brand offering a curated selection of beauty products, makeup, and perfumes. Founded by beauty expert Ayesha, the brand empowers individuals to enhance their natural beauty with confidence and style.
+              </p>
+            </div>
+            <!-- Grid column -->
+    
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-2">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold">Products</h6>
+              <hr class="mb-2 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #380606; height: 2px" />
+              <p>
+                <a href="#!" class="text-white">Makeup</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">Skincare Products</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">Perfumes</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">Makeup Bags</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+    
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-2">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold">Useful links</h6>
+              <hr class="mb-2 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #380606; height: 2px" />
+              <p>
+                <a href="#!" class="text-white">Your Account</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">Become an Affiliate</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">Shipping Rates</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">Help</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+    
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-2">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold">Contact</h6>
+              <hr class="mb-2 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #380606; height: 2px" />
+              <p><i class="fas fa-home mr-2"></i> New York, NY 10012, US</p>
+              <p><i class="fas fa-envelope mr-2"></i> info@example.com</p>
+              <p><i class="fas fa-phone mr-2"></i> + 01 234 567 88</p>
+              <p><i class="fas fa-print mr-2"></i> + 01 234 567 89</p>
+            </div>
+            <!-- Grid column -->
+    
+            <!-- Grid column: Social Media -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-2">
+              <h6 class="text-uppercase fw-bold">Follow Us</h6>
+              <hr class="mb-2 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #380606; height: 2px" />
+              <p>
+                <a href="https://www.facebook.com/Ayesha00O?mibextid=ZbWKwL" target="_blank">
+                  <img src="Images/facebook.png" alt="Facebook" style="width: 24px; height: 24px; margin-right: 15px;">
+                </a>
+                <a href="https://www.instagram.com/ash_ayeshaa/?hl=en" target="_blank">
+                  <img src="Images/instagram (1).png" alt="Instagram" style="width: 24px; height: 24px; margin-right: 15px;">
+                </a>
+                <a href="https://www.linkedin.com/in/ayesha-iqbal-87133a309/" target="_blank">
+                  <img src="Images/linkedin.png" alt="LinkedIn" style="width: 24px; height: 24px; margin-right: 15px;">
+                </a>
+                <a href="https://x.com/home" target="_blank">
+                  <img src="Images/5968830.png" alt="X" style="width: 24px; height: 24px; margin-right: 15px;">
+                </a>
+                <a href="mailto:ayesha.iqbal2105@gmail.com">
+                  <img src="Images/gmail.png" alt="Email" style="width: 24px; height: 24px;">
+                </a>
+              </p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+    
+      <!-- Copyright -->
+      <div class="text-center p-2" style="background-color: #310303;">
+        © 2024 Copyright:
+        <a class="text-white" href="https://mdbootstrap.com/">Ash Beauty</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+  
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBkB4gWLa1ixcz6nLDln/Q6sw5RfqCZ+QwAXk4kWT" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+  </html>
+  </body>
+  </html>
